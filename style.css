@@ -170,20 +170,18 @@ a:link {
   color: #aaa; /* 例如：藍色 */
 }
 
-
-
 div.town_list {
-   display: flex;
-   overflow: hidden;
+    display: flex;
+    overflow: hidden;
     top: 0;
-	height: 5rem;
+    height: 5rem;
     z-index: 100;
     position: sticky;
     background-color: white;
-	padding: 20px 20px 0 20px;
+    padding: 1rem 5vw 0 5vw;
     border-bottom: 1px solid #fff5b5;
-	box-shadow: 0 3px 10px 5px white;
-	background-image: url(image/cookie_T.svg);
+    box-shadow: 0 3px 10px 5px white;
+    background-image: url(image/cookie_T.svg);
 }
 .pois{
     margin-block: 30px;
