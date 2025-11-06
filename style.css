@@ -48,7 +48,20 @@ body {
     /* background-image: url(image/bg_camouflage.svg); */
 	background-attachment: fixed;
 }
-
+div.day-or-night {
+    width: 60px;
+    position: fixed;		
+    top: 16px;
+    right: 16px;
+    /* bottom: 0; */
+    z-index: 1000;
+}
+div.day-or-night>img {
+    cursor: pointer;
+    width: 40px;
+    padding: 10px;
+	filter: drop-shadow(0px 4px 4px #aaa);
+}
 div.tag_list {
   display: flex;
 }
@@ -57,6 +70,7 @@ input[type="checkbox"] {
 }
 label {
   --bg-color: #ffa;
+  width: 1rem;
   font-size: 0.8rem;
   display: inline-block;
   outline: 1px solid color-mix(in lab, #ffdd00 30%, var(--bg-color));
@@ -65,7 +79,7 @@ label {
   padding: 10px 10px 0 10px;
   margin: 3px 6px 0 6px;
   border-radius: 15px 15px 0 0;
-  min-width: 7ch;
+  /* min-width: 7ch; */
   text-align: center;
   user-select: none;
   
@@ -92,9 +106,9 @@ label {
   
   &:has(:checked) {
     background: color-mix(in lab, orange 30%, var(--bg-color));
-    color: color-mix(in lab, white 80%, var(--bg-color));
+    color: color-mix(in lab, black 80%, var(--bg-color));
     padding: 10px 10px 0 10px;
-	margin-top: -7px;
+	margin-top: -10px;
     &:hover {
         background: color-mix(in lab, red 10%, var(--bg-color));
     }
@@ -149,7 +163,7 @@ label {
 .poi>div{
 	display:block;   
 	float: left;
-    width: 100%;
+    width: calc(100% - 10px);
 }
 
 a:link {
@@ -159,8 +173,10 @@ a:link {
 
 
 div.town_list {
-  display: flex;
+   display: flex;
+   overflow: hidden;
     top: 0;
+	height: 5rem;
     z-index: 100;
     position: sticky;
     background-color: white;
@@ -172,15 +188,14 @@ div.town_list {
 .pois{
     margin-block: 30px;
     display: flex;
+	float: left;
     gap: 30px;
     flex-wrap: wrap;
     padding: 5vh 5vw 20vh 5vw;
 }
 .poi {
-	overflow: auto;
-    width: calc(15vw - 10px);
-    height: 220px;
-    overflow: clip;
+	width: calc(25vw - 25px);
+	width: calc(50% - 4vw);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -197,7 +212,13 @@ div.town_list {
         height: 0px;
         opacity: 0;
     }
+
 }
+@media (max-width: 600px) {
+            .poi {
+				width: calc(100vw - 25px);
+			}
+        }
 
 .poi::-webkit-scrollbar {
     width: 4px;
@@ -218,7 +239,6 @@ div.town_list {
 	font-size:0.5em;
 }
 
-div.town_list:has([name="css"]:checked) ~ .pois .poi:not(:has(.css)),
 div.town_list:has([name="Muldraugh"]:checked) ~ .pois .poi:not(:has(.Muldraugh)),
 div.town_list:has([name="MarchRidge"]:checked) ~ .pois .poi:not(:has(.MarchRidge)),
 div.town_list:has([name="Rosewood"]:checked) ~ .pois .poi:not(:has(.Rosewood)),
