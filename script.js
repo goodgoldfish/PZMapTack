@@ -76,6 +76,17 @@ function get_array(){
 	}
     return null;
 }
+function cityscape(sheet) {
+    if($(sheet).attr('src') === './image/cityscape.svg'){
+        //$('link[rel=stylesheet]').attr('href','./css/style_dark.css');
+        $(sheet).attr('src','./image/cityscape-star.svg');
+		$('div.town_list').hide();
+    }else{
+        //$('link[rel=stylesheet]').attr('href','./css/style_waffle.css');
+        $(sheet).attr('src','./image/cityscape.svg');
+		$('div.town_list').show();
+    }
+}
 
 function get_data(){
 	const tags = [
