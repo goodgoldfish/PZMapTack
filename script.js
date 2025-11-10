@@ -297,11 +297,6 @@ function get_data(){
         },
         {
             "type": "tag",
-            "en": "cabin",
-            "zh": "小木屋"
-        },
-        {
-            "type": "tag",
             "en": "woods",
             "zh": "樹林"
         },
@@ -324,6 +319,11 @@ function get_data(){
             "type": "tag",
             "en": "shed",
             "zh": "棚屋"
+        },
+        {
+            "type": "tag_slf",
+            "en": "cabin",
+            "zh": "小木屋"
         },
 		{
 			"type": "tag_slf",
@@ -364,11 +364,6 @@ function get_data(){
             "type": "tag_slf",
             "en": "far",
             "zh": "偏遠"
-        },
-        {
-            "type": "tag_slf",
-            "en": "equipment",
-            "zh": "電子設備"
         },
         {
             "type": "tag_slf",
@@ -972,7 +967,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1015",
@@ -987,7 +982,7 @@ function get_data(){
             "en": "A collection of cabins & sports amenities deep in the Kentucky wilderness. Happy trails!",
             "zh": "肯塔基荒野深處的一組小屋和運動設施。祝您旅途愉快！"
         },
-        "tags": ["tool"]
+        "tags": ["tool","cabin"]
     },
     {
         "ID": "1016",
@@ -1257,7 +1252,7 @@ function get_data(){
             "en": "Has a fireplace, tool shed, and outhouse.",
             "zh": "設有壁爐、工具棚和戶外廁所。"
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1035",
@@ -1587,7 +1582,7 @@ function get_data(){
             "en": "E.P. Tools.",
             "zh": "E.P. Tools。"
         },
-        "tags": ["material","hardware","tool"]
+        "tags": ["tool","weapons","material","hardware"]
     },
     {
         "ID": "1059",
@@ -1617,7 +1612,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1061",
@@ -1632,7 +1627,7 @@ function get_data(){
             "en": "3 Mansions gated all around with only 1 way in and a small pond.",
             "zh": "3棟豪宅被圍起來，只有1個入口和一個小池塘。"
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1062",
@@ -1662,7 +1657,7 @@ function get_data(){
             "en": "Electronic equipment & offices.",
             "zh": "電子設備和辦公室。"
         },
-        "tags": ["Office","material","equipment"]
+        "tags": ["Office","material"]
     },
     {
         "ID": "1064",
@@ -1707,7 +1702,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["Office","material","equipment"]
+        "tags": ["Office","material"]
     },
     {
         "ID": "1067",
@@ -1722,7 +1717,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["Office","material","equipment"]
+        "tags": ["Office","material"]
     },
     {
         "ID": "1068",
@@ -1782,7 +1777,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["Furniture"]
     },
     {
         "ID": "1072",
@@ -2007,7 +2002,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["tool","material","equipment"]
+        "tags": ["tool","material"]
     },
     {
         "ID": "1087",
@@ -2382,7 +2377,7 @@ function get_data(){
             "en": "Your gateway to Louisville, Knox Country and beyond! Stains on seats may or may not be brains of the deceased.",
             "zh": "通往路易斯維爾、諾克斯縣及其他地區的門戶！座位上的污漬可能或可能不是逝者的腦漿。"
         },
-        "tags": []
+        "tags": ["vehicle"]
     },
     {
         "ID": "1112",
@@ -2502,7 +2497,7 @@ function get_data(){
             "en": "Multi-floor mini-mall with various shops.",
             "zh": "多層迷你商場，內有各種商店。"
         },
-        "tags": ["tool","food","book","material"]
+        "tags": ["tool","food","book","material","Furniture"]
     },
     {
         "ID": "1120",
@@ -2547,7 +2542,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["Furniture"]
     },
     {
         "ID": "1123",
@@ -2562,7 +2557,7 @@ function get_data(){
             "en": "Louiville's central park with playground.",
             "zh": "路易斯維爾的中央公園，設有遊樂場。"
         },
-        "tags": []
+        "tags": ["Furniture"]
     },
     {
         "ID": "1124",
@@ -2607,7 +2602,7 @@ function get_data(){
             "en": "Church with a huge graveyard.",
             "zh": "帶有巨大墓地的教堂。"
         },
-        "tags": []
+        "tags": ["wood"]
     },
     {
         "ID": "1127",
@@ -2622,7 +2617,7 @@ function get_data(){
             "en": "Holy Light Baptist Church.",
             "zh": "聖光浸信會。"
         },
-        "tags": []
+        "tags": ["wood"]
     },
     {
         "ID": "1128",
@@ -2637,7 +2632,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["wood"]
     },
     {
         "ID": "1129",
@@ -2652,7 +2647,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["wood"]
     },
     {
         "ID": "1130",
@@ -2997,7 +2992,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["wood"]
     },
     {
         "ID": "1153",
@@ -3027,7 +3022,7 @@ function get_data(){
             "en": "Grid damage detected; Technicians dispatched.",
             "zh": "檢測到電網損壞；技術人員已派出。"
         },
-        "tags": ["equipment","tool"]
+        "tags": ["material","tool"]
     },
     {
         "ID": "1155",
@@ -3117,7 +3112,7 @@ function get_data(){
             "en": "Face the apocalypse like a king.",
             "zh": "像國王一樣面對末日。"
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1161",
@@ -3225,9 +3220,7 @@ function get_data(){
             "zh": ""
         },
         "tags": [
-            "Fire",
             "Fire axe",
-            "Fire station",
 			"weapons",
 			"tool",
 			"material"
@@ -3247,9 +3240,7 @@ function get_data(){
             "zh": ""
         },
         "tags": [
-            "Fire",
             "Fire axe",
-            "Fire station",
 			"weapons",
 			"tool",
 			"material"
@@ -3269,9 +3260,7 @@ function get_data(){
             "zh": ""
         },
         "tags": [
-            "Fire",
             "Fire axe",
-            "Fire station",
 			"weapons",
 			"tool",
 			"material"
@@ -3530,7 +3519,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["Warehouses"]
     },
     {
         "ID": "1187",
@@ -3753,9 +3742,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "",
-            "zh": ""
+            "zh": "應該是超市"
         },
-        "tags": []
+        "tags": ["food"]
     },
     {
         "ID": "1202",
@@ -3768,9 +3757,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "",
-            "zh": ""
+            "zh": "應該是超市"
         },
-        "tags": []
+        "tags": ["food"]
     },
     {
         "ID": "1203",
@@ -3815,7 +3804,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["food"]
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1206",
@@ -3995,7 +3984,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["Furniture"]
     },
     {
         "ID": "1218",
@@ -4235,7 +4224,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["food"]
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1234",
@@ -4250,7 +4239,7 @@ function get_data(){
             "en": "Fast-food Restaurant.",
             "zh": "速食餐廳。"
         },
-        "tags": ["food"]
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1235",
@@ -4280,7 +4269,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["food"]
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1237",
@@ -4295,7 +4284,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["food"]
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1238",
@@ -4355,7 +4344,7 @@ function get_data(){
             "en": "Printing factory and writers/editors workplace.",
             "zh": "印刷廠和作家/編輯工作場所。"
         },
-        "tags": ["book"]
+        "tags": ["book","Office"]
     },
     {
         "ID": "1242",
@@ -4386,7 +4375,7 @@ function get_data(){
             "zh": "設有生產線和倉儲的大型辦公樓。"
         },
         "tags": [
-		    "Office","Warehouses","tool","Office"
+		    "Office","Warehouses","tool","material"
 		]
     },
     {
@@ -4477,7 +4466,7 @@ function get_data(){
             "en": "Kitchen Appliance Store.",
             "zh": "廚房電器店。"
         },
-        "tags": ["Kitchen","tool","equipment"]
+        "tags": ["Kitchen","tool","material"]
     },
     {
         "ID": "1250",
@@ -4492,7 +4481,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["Office","equipment"]
+        "tags": ["Office","material"]
     },
     {
         "ID": "1251",
@@ -4522,7 +4511,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": ["Office","equipment"]
+        "tags": ["Office","material"]
     },
     {
         "ID": "1253",
@@ -4628,7 +4617,7 @@ function get_data(){
             "zh": ""
         },
         "tags": [
-		    "Office","equipment"
+		    "Office","material"
 		]
     },
     {
@@ -4749,7 +4738,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["Clothes"]
     },
     {
         "ID": "1268",
@@ -4764,7 +4753,7 @@ function get_data(){
             "en": "Inside of the mall.",
             "zh": "在購物中心內。"
         },
-        "tags": []
+        "tags": ["Clothes"]
     },
     {
         "ID": "1269",
@@ -4792,9 +4781,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "",
-            "zh": ""
+            "zh": "面積相當大"
         },
-        "tags": []
+        "tags": ["Office","Kitchen"]
     },
     {
         "ID": "1271",
@@ -4807,9 +4796,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "Baseball Bat Factory.",
-            "zh": "棒球棒工廠。"
+            "zh": "棒球棒工廠，大量原木"
         },
-        "tags": []
+        "tags": ["weapons","Office","wood"]
     },
     {
         "ID": "1272",
@@ -4824,7 +4813,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["Office","Furniture"]
     },
     {
         "ID": "1273",
@@ -4837,9 +4826,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "",
-            "zh": ""
+            "zh": "大，無明顯可守的點"
         },
-        "tags": []
+        "tags": ["danger"]
     },
     {
         "ID": "1274",
@@ -4852,7 +4841,7 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "",
-            "zh": ""
+            "zh": "露天音樂會場地"
         },
         "tags": []
     },
@@ -4869,7 +4858,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1276",
@@ -4884,7 +4873,7 @@ function get_data(){
             "en": "Sells domestic and internation maps and magazines.",
             "zh": "販售國內外地圖和雜誌。"
         },
-        "tags": []
+        "tags": ["book"]
     },
     {
         "ID": "1277",
@@ -4929,7 +4918,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1280",
@@ -4959,7 +4948,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food"]
     },
     {
         "ID": "1282",
@@ -4974,7 +4963,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food"]
     },
     {
         "ID": "1283",
@@ -4987,9 +4976,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "",
-            "zh": ""
+            "zh": "堵住樓梯口就安全了"
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1284",
@@ -5004,7 +4993,7 @@ function get_data(){
             "en": "A motel with a large outside pool and plenty of rooms.",
             "zh": "一間擁有大型室外游泳池和充足房間的汽車旅館。"
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1285",
@@ -5034,14 +5023,14 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["media"]
     },
     {
         "ID": "1287",
         "x": 12438,
         "y": 3108,
         "name": {
-            "en": "My Sunday Market",
+            "en": "Sunday Market",
             "zh": "[路易斯維爾]我的週日市場"
         },
         "location": "Louisville",
@@ -5049,7 +5038,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1288",
@@ -5062,9 +5051,9 @@ function get_data(){
         "location": "Louisville",
         "description": {
             "en": "Large building with many shelves, desks, and a few themed filming sets.",
-            "zh": "設有許多架子、書桌和一些主題拍攝場景的大型建築。"
+            "zh": "設有許多架子、書桌和一些主題拍攝場景的大型建築。很有趣的地點"
         },
-        "tags": []
+        "tags": ["Furniture","Office"]
     },
     {
         "ID": "1289",
@@ -5094,7 +5083,7 @@ function get_data(){
             "en": "Lots of desks here.",
             "zh": "這裡有很多書桌。"
         },
-        "tags": ["Office"]
+        "tags": ["Office","Furniture"]
     },
     {
         "ID": "1291",
@@ -5109,7 +5098,7 @@ function get_data(){
             "en": "For all your base decoration needs!",
             "zh": "滿足您所有基地裝飾的需求！"
         },
-        "tags": []
+        "tags": ["tool","Furniture"]
     },
     {
         "ID": "1292",
@@ -5199,7 +5188,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Office","Furniture"]
     },
     {
         "ID": "1298",
@@ -5229,7 +5218,7 @@ function get_data(){
             "en": "Pharmahug.",
             "zh": "Pharmahug。"
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1300",
@@ -5244,7 +5233,7 @@ function get_data(){
             "en": "Pharmahug.",
             "zh": "Pharmahug。"
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1301",
@@ -5259,7 +5248,7 @@ function get_data(){
             "en": "Med-U-Well Pharmacy and Medical Clinic.",
             "zh": "Med-U-Well 藥局和醫療診所。"
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1302",
@@ -5274,7 +5263,7 @@ function get_data(){
             "en": "Med-U-Well Pharmacy and Clinic.",
             "zh": "Med-U-Well 藥局和診所。"
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1303",
@@ -5289,7 +5278,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1304",
@@ -5304,7 +5293,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1305",
@@ -5319,7 +5308,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1306",
@@ -5334,7 +5323,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1307",
@@ -5349,7 +5338,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1308",
@@ -5364,7 +5353,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1309",
@@ -5379,7 +5368,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["gun","weapons"]
     },
     {
         "ID": "1310",
@@ -5394,7 +5383,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["gun","weapons"]
     },
     {
         "ID": "1311",
@@ -5409,7 +5398,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["gun","weapons"]
     },
     {
         "ID": "1312",
@@ -5424,7 +5413,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["gun","weapons"]
     },
     {
         "ID": "1313",
@@ -5454,7 +5443,7 @@ function get_data(){
             "en": "Refugee Area with lots of tents, propane bbqs, and metal drums.",
             "zh": "設有許多帳篷、丙烷燒烤架和金屬桶的難民區。"
         },
-        "tags": []
+        "tags": ["tool","Kitchen","material"]
     },
     {
         "ID": "1315",
@@ -5484,7 +5473,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["safe","far"]
     },
     {
         "ID": "1317",
@@ -5499,7 +5488,7 @@ function get_data(){
             "en": "A large building repurposed for what appears to be the army, containing many cots, clothing, and weapons, slightly southwest of the theater in the north of the city.",
             "zh": "一棟大型建築被改建為看似軍隊用途，內部有許多行軍床、衣物和武器，位於城市北部劇院的西南方。"
         },
-        "tags": []
+        "tags": ["material","tool","Clothes","weapons"]
     },
     {
         "ID": "1318",
@@ -5514,7 +5503,7 @@ function get_data(){
             "en": "Good lord what is happening in there!",
             "zh": "天啊，裡面發生了什麼事！"
         },
-        "tags": []
+        "tags": ["danger"]
     },
     {
         "ID": "1319",
@@ -5529,7 +5518,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1320",
@@ -5544,7 +5533,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1321",
@@ -5589,7 +5578,7 @@ function get_data(){
             "en": "With one surviving pump.",
             "zh": "還有一個油泵倖存。"
         },
-        "tags": []
+        "tags": ["gasoline"]
     },
     {
         "ID": "1324",
@@ -5604,7 +5593,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["wine"]
     },
     {
         "ID": "1325",
@@ -5619,7 +5608,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1326",
@@ -5634,7 +5623,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1327",
@@ -5649,7 +5638,7 @@ function get_data(){
             "en": "A coffee store inside Fossoil Stadium.",
             "zh": "Fossoil 體育場內的一家咖啡店。"
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1328",
@@ -5739,7 +5728,7 @@ function get_data(){
             "en": "A small checkpoint on the boundary of the exclusion zone.",
             "zh": "禁區邊界的一個小型檢查站。"
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1334",
@@ -5754,7 +5743,7 @@ function get_data(){
             "en": "Another way into Louisville.",
             "zh": "進入路易斯維爾的另一條路。"
         },
-        "tags": []
+        "tags": ["safe"]
     },
     {
         "ID": "1335",
@@ -5769,7 +5758,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["wood","book"]
     },
     {
         "ID": "1336",
@@ -5786,7 +5775,7 @@ function get_data(){
         },
         "tags": [
             "Spiffo",
-            "Restaurant"
+            "Restaurant","food","Kitchen"
         ]
     },
     {
@@ -5804,7 +5793,7 @@ function get_data(){
         },
         "tags": [
             "Spiffo",
-            "Restaurant"
+            "Restaurant","food","Kitchen"
         ]
     },
     {
@@ -5822,7 +5811,7 @@ function get_data(){
         },
         "tags": [
             "Spiffo",
-            "Restaurant"
+            "Restaurant","food","Kitchen"
         ]
     },
     {
@@ -5840,7 +5829,7 @@ function get_data(){
         },
         "tags": [
             "Spiffo",
-            "Restaurant"
+            "Restaurant","food","Kitchen"
         ]
     },
     {
@@ -5858,7 +5847,7 @@ function get_data(){
         },
         "tags": [
             "Spiffo",
-            "Restaurant"
+            "Restaurant","food","Kitchen"
         ]
     },
     {
@@ -5874,7 +5863,7 @@ function get_data(){
             "en": "Spiffo's in the baseball stadium.",
             "zh": "棒球場內的 Spiffo's。"
         },
-        "tags": []
+        "tags": ["food","Kitchen"]
     },
     {
         "ID": "1342",
@@ -5892,7 +5881,7 @@ function get_data(){
         "tags": [
             "Spiffo",
             "Restaurant",
-            "Headquaters"
+            "Headquaters","food","Kitchen","Office"
         ]
     },
     {
@@ -5908,7 +5897,7 @@ function get_data(){
             "en": "Baseball bats for days.",
             "zh": "多到可以打好幾天的棒球棒。"
         },
-        "tags": []
+        "tags": ["weapons"]
     },
     {
         "ID": "1344",
@@ -5923,7 +5912,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1345",
@@ -5938,7 +5927,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["medical"]
     },
     {
         "ID": "1346",
@@ -6973,7 +6962,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1415",
@@ -7183,7 +7172,7 @@ function get_data(){
             "en": "Do you really want to be alone in the woods now? Without a well?",
             "zh": "現在你真的想一個人待在樹林裡嗎？沒有水井？"
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1429",
@@ -7198,7 +7187,7 @@ function get_data(){
             "en": "Do you really want to be alone in the woods now?Has a well.",
             "zh": "現在你真的想一個人待在樹林裡嗎？有水井。"
         },
-        "tags": []
+        "tags": ["cabin","wood"]
     },
     {
         "ID": "1430",
@@ -7228,7 +7217,7 @@ function get_data(){
             "en": "A Group of Cabins In The Woods Near Muldraugh.",
             "zh": "莫德勞附近樹林中的一群小屋。"
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1432",
@@ -8851,7 +8840,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["tool","weapons","material","hardware"]
     },
     {
         "ID": "1540",
@@ -10061,7 +10050,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1620",
@@ -10196,7 +10185,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1629",
@@ -10541,7 +10530,7 @@ function get_data(){
             "en": "Do you really want to be alone in the woods without a well?",
             "zh": "現在你真的想一個人待在樹林裡嗎？沒有水井？"
         },
-        "tags": []
+        "tags": ["cabin"]
     },
     {
         "ID": "1652",
@@ -10826,7 +10815,7 @@ function get_data(){
             "en": "This is more of a general store than a hardware store.",
             "zh": "這更像是一家雜貨店，而不是五金行。"
         },
-        "tags": []
+        "tags": ["tool","weapons","material","hardware"]
     },
     {
         "ID": "1671",
@@ -10856,7 +10845,7 @@ function get_data(){
             "en": "Rest in peace.",
             "zh": "安息。"
         },
-        "tags": []
+        "tags": ["gun","weapons"]
     },
     {
         "ID": "1673",
@@ -10886,7 +10875,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["tool","weapons","material","hardware"]
     },
     {
         "ID": "1675",
@@ -11654,7 +11643,7 @@ function get_data(){
             "en": "",
             "zh": ""
         },
-        "tags": []
+        "tags": ["tool","weapons","material","hardware"]
     },
     {
         "ID": "1726",
@@ -13099,9 +13088,7 @@ function get_data(){
         "tags": [
             "western",
             "blacksmith",
-            "saloon",
-            "hardware",
-            "town"
+            "saloon","tool","weapons","material","hardware"
         ]
     },
     {
@@ -13126,7 +13113,8 @@ function get_data(){
 			"Office",
             "clinic",
             "greenhouse",
-            "courtyard"
+            "courtyard",
+			"wood","safe","Furniture"
         ]
     },
     {
@@ -13186,7 +13174,7 @@ function get_data(){
         },
         "tags": [
             "cabin",
-            "woods",
+            "wood",
             "stove",
             "sink",
             "outhouse",
