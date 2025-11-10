@@ -320,3 +320,166 @@ div.tag[tag="gasoline"]{
         position: relative;
 	}
 }
+
+div.tag[tag="Warehouses"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-Warehouses.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="wood"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-wood.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="medical"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-medical.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="hardware"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-hardware.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="material"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-material.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="safe"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-safe.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="vehicle"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-vehicle.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="wine"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-wine.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="Office"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-Office.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="autorepair"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-autorepair.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="Clothes"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-Clothes.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="tool"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-tool.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="book"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-book.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+
+div.tag[tag="gun"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-gun.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="weapons"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-weapons.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+div.tag[tag="cabin"]{
+	padding: 2px 6px 2px 6px;
+	&::before{
+	    content:"！";
+	    content: url(image/tag-cabin.svg);
+		margin-right: 4px;
+        top: 2px;
+        position: relative;
+	}
+}
+
